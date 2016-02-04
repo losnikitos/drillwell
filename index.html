@@ -6,21 +6,13 @@
 		height: 200px;
 		background-size: 100%;
 		background-repeat: no-repeat;
-	}
-
-	.vector {
-		background-image: url(logo.svg);
-	}
-
-	.raster {
 		background-image: url(logo.png);
+		background-image: url(logo.svg);
 	}
 	</style>
 </head>
 <body>
-	<div>raster</div>
-	<div class="logo raster"></div>
-	<div>vector</div>
-	<div class="logo vector"></div>
+	<div>fallback</div>
+	<div class="logo"></div>
 </body>
 </html>
